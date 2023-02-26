@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>KERMIT</h1>
+<p id="Kermit">Kermit</p>
+
+<p	id="demo" style="display:none">kermit</p>
+<button type="button"
+onclick="document.getElementById('demo').style.display='block'">THE TRUTH
+</body>
+
+<button type="button" onclick="document.getElementById('demo').style.display='none'">The truth is to much, remove it.
+</button>
+
+<button type="button" onclick='document.getElementById("Kermit").innerHTML = "kermit"'>I accept the truth</button>
+
+</body>
+</html>
